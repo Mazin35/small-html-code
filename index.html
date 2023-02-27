@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mazin's Page</title>
+	<style>
+		body {
+			background-color: #f0f0f0;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		}
+		form {
+			background-color: #ffffff;
+			border: 1px solid #cccccc;
+			border-radius: 5px;
+			box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+			padding: 20px;
+			width: 400px;
+			margin: 50px auto;
+		}
+		input[type="text"], input[type="password"] {
+			display: block;
+			margin-bottom: 20px;
+			padding: 10px;
+            padding-right: 5px;
+			width: 100%;
+			border: 1px solid #cccccc;
+			border-radius: 5px;
+			font-size: 16px;
+		}
+		input[type="submit"] {
+			background-color: #0066cc;
+			color: #ffffff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #0059b3;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h1>Login</h1>
+		<label for="username">Username</label>
+		<input type="text" id="username" name="username" placeholder="Enter your username">
+
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password">
+
+		<input type="submit" value="Login">
+	</form>
+</body>
+</html>
